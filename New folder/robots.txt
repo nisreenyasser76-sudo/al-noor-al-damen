@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://glittering-speculoos-0eaa42.netlify.app/sitemap.xml
