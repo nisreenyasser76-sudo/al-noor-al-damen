@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>مجموعة النور الضامن | Built on Trust</title>
+<style>
+  :root{--bg:#0f3550;--bg2:#102f44;--acc:#d4b06a;--txt:#0e2233;--muted:#6b7a86;}
+  *{box-sizing:border-box} html,body{margin:0;padding:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Tahoma,Arial}
+  a{color:inherit;text-decoration:none}
+  .nav{background:var(--bg);color:#fff;position:sticky;top:0;z-index:10}
+  .wrap{max-width:1100px;margin:auto;padding:0 16px}
+  .nav .row{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .brand{display:flex;gap:10px;align-items:center;font-weight:700}
+  .brand .dot{width:10px;height:10px;background:var(--acc);border-radius:50%}
+  .menu{display:flex;gap:18px;font-size:14px;opacity:.95}
+  .hero{background:linear-gradient(180deg, var(--bg) 0%, var(--bg2) 100%);color:#fff;padding:72px 0 56px;text-align:center}
+  .hero h1{margin:0 0 10px;font-size:32px;font-weight:800}
+  .hero p{margin:0 0 22px;opacity:.95}
+  .cta{display:inline-block;background:var(--acc);color:#122; padding:12px 20px;border-radius:10px;font-weight:700}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin:28px 0}
+  .card{background:#fff;border-radius:14px;padding:18px;border:1px solid #e6edf3;box-shadow:0 2px 10px rgba(0,0,0,.03)}
+  .card h3{margin:0 0 6px;color:var(--txt)}
+  .card p{margin:0;color:var(--muted);font-size:14px;line-height:1.7}
+  .section{padding:28px 0}
+  .footer{background:#0c273a;color:#dfe7ee;padding:28px 0;margin-top:24px;font-size:14px}
+  .badges{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+  .badge{background:#eef3f7;color:#123;padding:6px 10px;border-radius:30px;font-size:12px;border:1px solid #e1e8ef}
+</style>
+</head>
+<body>
+
+<!-- شريط علوي -->
+<div class="nav">
+  <div class="wrap">
+    <div class="row">
+      <div class="brand">
+        <span class="dot"></span>
+        <span>مجموعة النور الضامن</span>
+      </div>
+      <div class="menu">
+        <a href="#about">من نحن</a>
+        <a href="#services">الخدمات</a>
+        <a href="#contact">تواصل</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- هيرو -->
+<header class="hero">
+  <div class="wrap">
+    <h1>مجموعة النور الضامن</h1>
+    <p>نبني على الثقة منذ 2017 — حلول متكاملة في المقاولات، الصناعة، التجارة، الزراعة والخدمات.</p>
+    <a class="cta" href="#contact">تواصل معنا</a>
+    <div class="badges" style="justify-content:center;margin-top:14px">
+      <span class="badge">Built on Trust</span>
+      <span class="badge">Iraq</span>
+      <span class="badge">Government & Private</span>
+    </div>
+  </div>
+</header>
+
+<!-- خدمات -->
+<section id="services" class="section">
+  <div class="wrap">
+    <h2 style="margin:0 0 12px;color:#0e2233">قطاعات عملنا</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>القطاع الصناعي والإنشائي</h3>
+        <p>تصميم وتنفيذ منشآت صناعية وخطوط إنتاج، وإدارة مشاريع بكفاءة عالية.</p>
+      </div>
+      <div class="card">
+        <h3>القطاع الزراعي والري</h3>
+        <p>تجهيز جرارات وساحبات ومرشات مياه عالية الأداء ودعم فني للمزارع.</p>
+      </div>
+      <div class="card">
+        <h3>التعبئة والتغليف</h3>
+        <p>حلول تصنيع غذائي وخطوط تعبئة وتغليف بمقاييس جودة موثوقة.</p>
+      </div>
+      <div class="card">
+        <h3>المعدات الطبية واللوجستيات</h3>
+        <p>تجهيزات طبية، نظافة وصيانة، نقل وتخليص جمركي بكفاءة.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- من نحن -->
+<section id="about" class="section" style="background:#f6f9fb">
+  <div class="wrap">
+    <h2 style="margin:0 0 12px;color:#0e2233">من نحن</h2>
+    <p style="color:#475867;line-height:1.9">
+      نحن شركة عراقية متنوعة الخدمات نقدّم حلولاً موثوقة في الإنشاءات، الصناعة، التجارة، الزراعة والخدمات.
+      نلتزم بالموثوقية والجودة لخدمة القطاعين الحكومي والخاص.
+    </p>
+    <div class="badges">
+      <span class="badge">Construction & Industry</span>
+      <span class="badge">Agriculture</span>
+      <span class="badge">Food Packaging</span>
+      <span class="badge">Medical & Services</span>
+    </div>
+  </div>
+</section>
+
+<!-- تواصل -->
+<section id="contact" class="section">
+  <div class="wrap">
+    <h2 style="margin:0 0 12px;color:#0e2233">تواصل</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>الهاتف</h3>
+        <p>+964 7731155566</p>
+      </div>
+      <div class="card">
+        <h3>البريد</h3>
+        <p>info@alnooraldamen.com</p>
+      </div>
+      <div class="card">
+        <h3>فيسبوك</h3>
+        <p><a href="https://www.facebook.com" target="_blank" rel="noopener">صفحتنا</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ذيل -->
+<footer class="footer">
+  <div class="wrap">
+    <div style="display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between">
+      <div>© مجموعة النور الضامن — Built on Trust</div>
+      <div style="opacity:.85">2017 · العراق</div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
